@@ -1,0 +1,35 @@
+#dictionary
+dict = {'Name': 'hadi', 'Age': 20, 'Class': 'First'}
+print ("dict['Name']: ", dict['Name'])
+print ("dict['Age']: ", dict['Age'])
+
+#string
+# menggunakan posisi default
+default_order = "{}, {} dan {}".format("farel", "Given","hadi")
+print('\n--- Urutan default ---')
+print(default_order)
+
+# menggunakan argument posisi
+positional_order = "{1}, {0} dan {2}".format("farel", "Given","hadi")
+print('\n--- Urutan berdasarkan posisi ---')
+print(positional_order)
+
+# menggunakan argumen kata kunci
+keyword_order = "{r}, {b} dan {g}".format("farel", "Given","hadi")
+print('\n--- Urutan berdasarkan kata kunci ---')
+print(keyword_order)
+
+#list
+list_buah = ['alpukat', 'apel', 'pir', 'markisa']
+
+print(list_buah)
+
+# ubah data pertama
+list_buah[0] = 'Jeruk'
+
+print(list_buah)
+
+# ubah data terakhir
+list_buah[-1] = 'Mangga'
+
+print(list_buah)
